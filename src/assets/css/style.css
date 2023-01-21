@@ -105,6 +105,10 @@ a {
   text-decoration: none;
   color: inherit; }
 
+.back_button {
+  left: 10rem;
+  top: 5rem; }
+
 .project {
   height: 100%;
   perspective: 150rem; }
