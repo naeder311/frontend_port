@@ -21,7 +21,7 @@ const ContactInfo = () => {
       .then(
         (result) => {
           console.log(result.text);
-          navigate('/');
+          navigate('/Home');
         },
         (error) => {
           console.log(error.text);
@@ -56,7 +56,7 @@ const ContactInfo = () => {
             value="Send"
             className="contact__form__btn btn"
           />
-          <Link to="/" className="btn">
+          <Link to="/Home" className="btn">
             back
           </Link>
         </div>
