@@ -36,10 +36,10 @@ a {
   top: 3rem;
   position: absolute;
 
-  // @media screen and (max-width: $bp-mws) {
-  //   left: 0;
-  //   top: 5em;
-  //   padding: 0rem;
-  //   margin: 0;
-  // }
+  @media screen and (max-width: $bp-med) {
+    left: 0;
+    top: 5em;
+    padding: 0rem;
+    margin: 0;
+  }
 }
