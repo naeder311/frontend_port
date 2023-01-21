@@ -56,6 +56,9 @@ const ContactInfo = () => {
             value="Send"
             className="contact__form__btn btn"
           />
+          <Link to="/" className="btn">
+            back
+          </Link>
         </div>
       </form>
       <div>
