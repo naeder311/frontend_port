@@ -2,7 +2,7 @@ import React from 'react';
 import emailjs from '@emailjs/browser';
 import { useRef } from 'react';
 import email from '../assets/images/email.svg';
-import { useNavigate, Navigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 
 const ContactInfo = () => {
   const navigate = useNavigate();
@@ -56,9 +56,9 @@ const ContactInfo = () => {
             value="Send"
             className="contact__form__btn btn"
           />
-          <Navigate to="/" className="btn">
+          <Link to="/" className="btn">
             back
-          </Navigate>
+          </Link>
         </div>
       </form>
       <div>
