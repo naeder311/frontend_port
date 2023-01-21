@@ -1,0 +1,4 @@
+export const MODAL_OPEN = 'MODAL_OPEN';
+export const MODAL_CLOSE = 'MODAL_CLOSE';
+export const GET_PROJECTS_SUCCESS = 'GET_SITES_SUCCESS';
+export const GET_PROJECT_SUCCESS = 'GET_SITE_SUCCESS';

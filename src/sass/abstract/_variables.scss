@@ -1,0 +1,33 @@
+// colors
+$color-primary-light: #407e9d;
+$color-primary: #13597c;
+$color-primary-dark: #073e5a;
+
+$color-secondary-light: #60dbdd;
+$color-secondary: #03c6ca;
+$color-secondary-dark: #037591;
+
+$color-tertiary-light: #aaf8ed;
+$color-tertiary: #99fef2;
+$color-tertiary-dark: #68cfc3;
+
+$color-grey-light-1: #faf9f9;
+$color-grey-light-2: #f4f2f2;
+$color-grey-light-3: #f0eeee;
+$color-grey-light-4: #ccc;
+$color-grey-light-5: rgb(140, 149, 152);
+
+$color-grey-dark-1: #333;
+$color-grey-dark-2: #777;
+$color-grey-dark-3: #999;
+$color-grey-dark-4: #5c5757;
+$color-grey-dark-5: #504545;
+
+$color-black: #000;
+$color-white: #fff;
+
+$shadow-dark: 0 2rem 6rem rgba(0, 0, 0, 0.7);
+$shadow-light: 0 1rem 5rem rgba(0, 0, 0, 0.06);
+$shadow-blue-glow: 0 1rem 6rem rgba($color-secondary-dark, 0.5);
+
+$line: 0.1rem solid var(--color-grey-light-2);

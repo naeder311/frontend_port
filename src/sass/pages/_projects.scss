@@ -1,0 +1,49 @@
+.projects {
+  // box-shadow: 1rem 2rem 2rem 3rem rgba(#333, 0.3);
+  padding-bottom: 2rem;
+  position: relative;
+  max-width: 100%;
+
+  @media screen and (max-width: $bp-small) {
+    background-image: none;
+    box-shadow: none;
+  }
+
+  &__grid {
+    max-width: 100%;
+
+    &__1 {
+      // grid-row: 1/2;
+      position: relative;
+      color: $color-grey-dark-2;
+      font-size: 4rem;
+      justify-self: center;
+      align-self: center;
+      display: block;
+      text-align: center;
+      display: block;
+      margin-bottom: 2rem;
+      padding-top: 5rem;
+
+      justify-items: center;
+      //   justify-content: center;
+    }
+    &__2 {
+      // grid-row: 2/4;
+      display: grid;
+      grid-template-columns: repeat(3, minmax(20rem, 1fr));
+      gap: 2rem 1.5rem;
+      margin-left: 2rem;
+      margin-right: 2rem;
+      // background-color: pink;
+      @media screen and (max-width: $bp-med) {
+        grid-template-columns: repeat(2, minmax(20rem, 1fr));
+        gap: 1rem 0.75rem;
+      }
+      @media screen and (max-width: $bp-small) {
+        grid-template-columns: repeat(1, minmax(20rem, 1fr));
+        gap: 1rem 0.75rem;
+      }
+    }
+  }
+}

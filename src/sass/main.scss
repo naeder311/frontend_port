@@ -1,0 +1,24 @@
+@import 'src/sass/abstract/variables';
+@import 'src/sass/abstract/mixins';
+@import 'src/sass/abstract/functions';
+
+@import 'src/sass/base/base';
+@import 'src/sass/base/animations';
+@import 'src/sass/base/utilities';
+@import 'src/sass/base/typography';
+
+@import 'src/sass/layout/grid';
+@import 'src/sass/layout/footer';
+@import 'src/sass/layout/navigation';
+
+@import 'src/sass/components/button';
+@import 'src/sass/components/project';
+@import 'src/sass/components/customer';
+@import 'src/sass/components/cursor';
+@import 'src/sass/components/modal';
+@import 'src/sass/components/resume';
+
+@import 'src/sass/pages/home';
+@import 'src/sass/pages/projects';
+@import 'src/sass/pages/contact';
+@import 'src/sass/pages/about';

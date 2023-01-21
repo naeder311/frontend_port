@@ -1,0 +1,183 @@
+.project {
+  height: 100%;
+  perspective: 150rem;
+
+  &__side {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    backface-visibility: hidden;
+    overflow: hidden;
+    box-shadow: 0.3rem 0.5rem 1.2rem 0.4rem rgba($color-grey-dark-1, 0.8);
+    transition: all 1s ease;
+    border-radius: 0.7rem;
+    @media screen and (max-width: $bp-small) {
+      box-shadow: none;
+      box-shadow: none;
+      transition: none;
+      border: 0.2rem solid;
+    }
+
+    &__front {
+      background-color: white;
+      position: relative;
+      display: grid;
+      background-color: $color-grey-light-4;
+      justify-self: center;
+      @media screen and (max-width: $bp-small) {
+      }
+
+      &__img {
+        grid-row: 1/2;
+        width: 90%;
+        height: 100%;
+        object-fit: fill;
+        margin-top: 1rem;
+        // box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem rgba($color-grey-dark-1, 0.8);
+        justify-self: center;
+        overflow: hidden;
+        @media screen and (max-width: $bp-small) {
+          width: 100%;
+        }
+      }
+      &__title {
+        padding-top: 2rem;
+        padding-left: 1rem;
+        grid-row: 2/3;
+        font-size: 1.3rem;
+        font-weight: 700;
+        overflow: hidden;
+        &--btn {
+          display: none;
+          @media screen and (max-width: $bp-small) {
+            display: block;
+            padding: 1rem;
+            border: none;
+          }
+        }
+        @media screen and (max-width: $bp-small) {
+          padding-bottom: 2rem;
+          display: none;
+          padding-left: none;
+        }
+      }
+    }
+    &__back {
+      transform: rotateY(180deg);
+      height: 100%;
+      display: grid;
+      grid-template-rows: 3rem 1fr 30%;
+      background-image: radial-gradient(white, $color-grey-dark-3);
+      @media screen and (max-width: $bp-small) {
+        display: none;
+      }
+      &__title {
+        margin-top: 1rem;
+        text-align: center;
+      }
+
+      &__desc {
+        font-size: 0.75rem;
+        padding: 1rem;
+        padding-top: 1rem;
+        text-align: center;
+        padding-bottom: 1rem;
+      }
+      &__btn {
+        padding-top: 0.5rem;
+        border-radius: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        width: 90%;
+        box-shadow: 0.3rem 0.3rem 0.5rem 0.25rem $color-grey-dark-1;
+        justify-self: center;
+
+        margin-bottom: 0.75rem;
+        padding-bottom: 0.75rem;
+
+        &-text {
+          font-size: 1.25rem;
+
+          text-transform: uppercase;
+          text-decoration: none;
+          color: $color-grey-light-4;
+        }
+        &,
+        &:link,
+        &:visited {
+          margin: 1rem 4rem;
+          border: none;
+          border-radius: 3rem;
+          display: inline-block;
+          background-color: $color-grey-dark-3;
+          transition: all 0.2s;
+        }
+        &:hover {
+          color: $color-grey-light-4;
+          transform: translateY(-0.5rem) scale(01.1);
+          box-shadow: 0.7rem 0.9rem 0.4rem $color-grey-dark-1;
+        }
+      }
+    }
+  }
+  &:hover &__side__front {
+    transform: rotateY(-180deg);
+    @media screen and (max-width: $bp-small) {
+      transform: none;
+    }
+  }
+  &:hover &__side__back {
+    transform: rotateY(0);
+    @media screen and (max-width: $bp-small) {
+      transform: none;
+    }
+  }
+}
+
+// .project {
+//   position: relative;
+//   // width: 100%;
+//   margin: 2rem;
+//   // overflow: hidden;
+//   box-shadow: 1rem 4rem 3rem 1rem rgba($color-grey-dark-1, 0.8);
+//   background-color: $color-grey-light-4;
+//   backface-visibility: hidden;
+//   position: relative;
+//   perspective: 150rem;
+//   transition: all 2s;
+
+//   &__front {
+//     // position: relative;
+//     display: grid;
+//     // width: 100%;
+//     height: 30rem;
+//     grid-template-rows: lfr 7%;
+//     padding: 1rem;
+//     background-color: $color-grey-light-4;
+//     // justify-items: center;
+
+//     &__img {
+//       grid-row: 1/2;
+//       width: 100%;
+//       height: 100%;
+//       object-fit: cover;
+//       box-shadow: 1rem 4rem 3rem 1rem rgba($color-grey-dark-1, 0.8);
+//     }
+//     &__title {
+//       padding-top: 1rem;
+//       grid-row: 2/3;
+//       font-size: 1.3rem;
+//       font-weight: 700;
+//     }
+//     &:hover {
+//       transform: translateY(180deg);
+//     }
+//   }
+//   &__back {
+//     background-color: red;
+//     height: 30rem;
+//     transform: translateY(180deg);
+//   }
+// }

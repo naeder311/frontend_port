@@ -1,0 +1,122 @@
+/*
+
+0-600px:      phone
+600-900px:    ablet portrate
+900-1200px:   tablet landscape
+1200-1800px:  normal styles apply
+1800 +:       big desktop
+
+*/
+/*
+$breakpoint argument choices:
+- phone
+-tab-port
+-tab-land
+-big-desktop
+*/
+/* PIXEL CHANGE TO EM
+
+1em = 16px
+
+600px / 1em = 37.5em
+900px / 1em = 56.25em
+1200px / 1em = 75
+1800px / 1em =  112.5
+
+*/
+* {
+  padding: 0;
+  margin: 0; }
+
+*,
+::before,
+::after {
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%;
+  box-sizing: none; }
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  line-height: 1.6rem;
+  color: #333; }
+
+.btn, .btn:link, .btn:visited {
+  text-decoration: none;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1.5rem 4rem;
+  display: inline-block;
+  border-radius: 10rem;
+  transition: all 0.2s;
+  position: relative;
+  background-color: #073e5a;
+  color: #333;
+  border: none;
+  cursor: pointer; }
+
+.btn:hover {
+  transform: translateY(-0.3rem);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
+  .btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0; }
+
+.btn:active, .btn:focus {
+  outline: none;
+  transform: translateY(-0.1rem);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
+
+.btn--white {
+  background-color: #fff;
+  color: #333; }
+  .btn--white::after {
+    background-color: #fff; }
+
+.btn--green {
+  background-color: #13597c;
+  color: #fff; }
+  .btn--green::after {
+    background-color: #fff; }
+
+.btn::after {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 10rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.4s; }
+
+.btn--animated {
+  animation: moveInBottom 1s ease-out 0.75s;
+  animation-fill-mode: backwards; }
+
+.btn-text:link, .btn-text:visited {
+  color: #13597c;
+  display: inline-block;
+  text-decoration: none;
+  border-bottom: 0.1rem solid #13597c;
+  padding: 0.3rem;
+  transition: all 0.2s; }
+
+.btn-text:hover {
+  background-color: #13597c;
+  color: #fff;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px); }
+
+.btn-text:active {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  transform: translateY(0px); }
+
+.hero__container {
+  width: 100%;
+  max-height: 100vh;
+  background-color: yellow;
+  background-image: url("/src/assets/images/guy-at-comp.jpg"); }
