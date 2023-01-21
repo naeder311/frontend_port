@@ -1,6 +1,7 @@
 import React from 'react';
 import ContactForm from '../components/ContactForm';
 import ContactInfo from '../components/ContactInfo';
+import { Link } from 'react-router-dom';
 
 const Contact = () => {
   return (
