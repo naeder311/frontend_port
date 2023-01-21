@@ -2,7 +2,7 @@ import React from 'react';
 import emailjs from '@emailjs/browser';
 import { useRef } from 'react';
 import email from '../assets/images/email.svg';
-import { useNavigate, Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const ContactInfo = () => {
   const navigate = useNavigate();
