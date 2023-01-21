@@ -96,8 +96,8 @@ const Header = () => {
             <li>Emailjs</li>
             <li>React-icons</li>
             <li>Django-Rest-API</li>
-            <li>Postgresql hosted on AWS RDS</li>
-            <li>Media hosted on AWS S3</li>
+            <li>Postgresql AWS RDS</li>
+            <li>AWS S3</li>
             <li>No bootstrap utilized</li>
           </ul>
         </div>
