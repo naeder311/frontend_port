@@ -58,9 +58,7 @@ const ContactInfo = () => {
           />
         </div>
       </form>
-      <Link to="/" className="btn">
-        Back
-      </Link>
+
       <div>
         <img src={email} alt="" className="contact__form__img" />
       </div>
