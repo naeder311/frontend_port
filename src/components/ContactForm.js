@@ -2,8 +2,10 @@ import React from 'react';
 import emailjs from '@emailjs/browser';
 import { useRef } from 'react';
 import email from '../assets/images/email.svg';
+import { useNavigate } from 'react-router-dom';
 
 const ContactInfo = () => {
+  const navigate = useNavigate();
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -19,6 +21,7 @@ const ContactInfo = () => {
       .then(
         (result) => {
           console.log(result.text);
+          navigate('/');
         },
         (error) => {
           console.log(error.text);
