@@ -87,6 +87,7 @@ body {
   display: inline-block;
   border-radius: 10rem;
   transition: all 0.2s;
+  margin-right: 1rem;
   background-color: #073e5a;
   color: #407e9d;
   border: none;
@@ -183,7 +184,7 @@ a {
         border-radius: 1rem;
         margin-left: 1rem;
         margin-right: 1rem;
-        width: 90%;
+        width: 80%;
         box-shadow: 0.3rem 0.3rem 0.5rem 0.25rem #333;
         justify-self: center;
         margin-bottom: 0.75rem;
