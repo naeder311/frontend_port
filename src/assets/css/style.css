@@ -496,8 +496,7 @@ a {
     .header {
       box-shadow: none;
       border-top-left-radius: 0;
-      border-top-right-radius: 0;
-      background: none; } }
+      border-top-right-radius: 0; } }
   .header__leftside {
     border-top-left-radius: 4rem;
     padding-top: 10rem;
