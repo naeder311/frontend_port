@@ -42,7 +42,7 @@ html {
       width: 100vw; } }
 
 body {
-  background: #8c9598; }
+  background: #ccc; }
   @media screen and (max-width: 38.5em) {
     body {
       width: 100vw;
@@ -425,7 +425,7 @@ a {
   max-width: 80%;
   margin: 4rem auto; }
   .container__area {
-    background-color: #f0eeee;
+    background-color: #faf9f9;
     border-radius: 1rem; }
   @media screen and (max-width: 38.5em) {
     .container {
@@ -562,9 +562,8 @@ a {
     display: flex;
     position: relative;
     padding: 2rem;
-    background: #ccc;
-    clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
-    opacity: 0.8; }
+    background: #faf9f9;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%); }
     @media screen and (max-width: 73em) {
       .header__right {
         border-top-right-radius: 0rem; } }
