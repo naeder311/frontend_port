@@ -35,6 +35,7 @@ a {
   left: 3%;
   top: 3rem;
   position: absolute;
+  z-index: 2;
 
   @media screen and (max-width: $bp-med) {
     left: 0;

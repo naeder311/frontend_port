@@ -6,8 +6,8 @@ import { Link } from 'react-router-dom';
 const Contact = () => {
   return (
     <section>
-      <Link to="/" className="btn back__button">
-        Back
+      <Link to="/">
+        <button className="btn back__button">Back</button>
       </Link>
       <article className="contact__container">
         <ContactForm />

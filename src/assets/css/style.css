@@ -108,7 +108,8 @@ a {
 .back__button {
   left: 3%;
   top: 3rem;
-  position: absolute; }
+  position: absolute;
+  z-index: 2; }
   @media screen and (max-width: 56em) {
     .back__button {
       left: 0;
