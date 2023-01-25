@@ -107,6 +107,8 @@
     box-shadow: none;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
+    background: none;
+    background-color: rgba($color-primary-light, 0.85);
   }
   &__leftside {
     border-top-left-radius: 4rem;
