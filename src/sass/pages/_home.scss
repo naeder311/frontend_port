@@ -96,10 +96,8 @@
 
   justify-content: center;
 
-  background: radial-gradient(
-    rgba($color-primary-light, 0.7),
-    rgba($color-primary-dark, 0.6)
-  );
+  background-color: rgba($color-primary-light, 0.85);
+
   @media screen and (max-width: $bp-large) {
     grid-template-columns: 1fr;
   }
@@ -108,7 +106,6 @@
     border-top-left-radius: 0;
     border-top-right-radius: 0;
     background: none;
-    background-color: rgba($color-primary-light, 0.85);
   }
   &__leftside {
     border-top-left-radius: 4rem;

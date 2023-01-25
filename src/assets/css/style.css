@@ -488,7 +488,7 @@ a {
   display: grid;
   grid-template-columns: 2fr 1fr;
   justify-content: center;
-  background: radial-gradient(rgba(64, 126, 157, 0.7), rgba(7, 62, 90, 0.6)); }
+  background-color: rgba(64, 126, 157, 0.85); }
   @media screen and (max-width: 73em) {
     .header {
       grid-template-columns: 1fr; } }
@@ -497,8 +497,7 @@ a {
       box-shadow: none;
       border-top-left-radius: 0;
       border-top-right-radius: 0;
-      background: none;
-      background-color: rgba(64, 126, 157, 0.85); } }
+      background: none; } }
   .header__leftside {
     border-top-left-radius: 4rem;
     padding-top: 10rem;
