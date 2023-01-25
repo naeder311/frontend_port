@@ -97,8 +97,8 @@
   justify-content: center;
 
   background: radial-gradient(
-    rgba($color-primary-light, 0.2),
-    rgba($color-primary-dark, 0.8)
+    rgba($color-primary-light, 0.7),
+    rgba($color-primary-dark, 0.6)
   );
   @media screen and (max-width: $bp-large) {
     grid-template-columns: 1fr;

@@ -488,7 +488,7 @@ a {
   display: grid;
   grid-template-columns: 2fr 1fr;
   justify-content: center;
-  background: radial-gradient(rgba(64, 126, 157, 0.2), rgba(7, 62, 90, 0.8)); }
+  background: radial-gradient(rgba(64, 126, 157, 0.7), rgba(7, 62, 90, 0.6)); }
   @media screen and (max-width: 73em) {
     .header {
       grid-template-columns: 1fr; } }
