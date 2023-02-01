@@ -72,6 +72,14 @@ const Header = () => {
             >
               <h3 className="header__leftside__grid__btn--text">Resume</h3>
             </a>
+            <a
+              href="https://github.com/naeder311"
+              target="_blank"
+              rel="noreferrer"
+              className="btn header__leftside__grid__btn"
+            >
+              <h3 className="header__leftside__grid__btn--text">Github</h3>
+            </a>
           </div>
         </div>
       </div>
@@ -88,7 +96,7 @@ const Header = () => {
           <div className="header__right__info--tech">
             Technologies used for this portfolio:
           </div>
-          <ul>
+          <ul className="header__ul">
             <li>React</li>
             <li>React-router-dom</li>
 

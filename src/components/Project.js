@@ -31,7 +31,7 @@ const Project = ({
       </div>
       <div className="project__side project__side__back">
         <h1 className="project__side__back__title">{title}</h1>
-        <p className="project__side__back__desc">{desc.substring(0, 100)}...</p>
+        <p className="project__side__back__desc">{desc.substring(0, 400)}...</p>
         <button
           className="project__side__back__btn"
           type="button"

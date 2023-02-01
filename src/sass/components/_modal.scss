@@ -17,7 +17,6 @@
   position: relative;
   @media screen and (max-width: $bp-med) {
     gap: 0rem;
-    grid-template-rows: none;
   }
 
   &__x {
@@ -32,9 +31,11 @@
     display: grid;
     grid-template-columns: 60% 40%;
     gap: 1rem;
+    height: 100%;
     overflow: hidden;
+
     @media screen and (max-width: $bp-large) {
-      display: block;
+      // display: block;
     }
 
     &__left {
@@ -46,12 +47,12 @@
         width: 100%;
         max-height: 100%;
         @media screen and (max-width: $bp-large) {
-          height: 50%;
-          width: 50%;
+          // height: 50%;
+          // width: 50%;
         }
         @media screen and (max-width: $bp-med) {
-          height: 60%;
-          width: 60%;
+          // height: 60%;
+          // width: 60%;
         }
       }
     }
@@ -61,6 +62,10 @@
 
       &--desc {
         margin-top: 3rem;
+        font-size: 1.3rem;
+        @media screen and (max-width: 831px) {
+          font-size: 1rem;
+        }
       }
     }
   }

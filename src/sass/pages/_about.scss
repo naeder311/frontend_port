@@ -44,7 +44,7 @@
       padding-right: 2rem;
       margin-top: 2rem;
 
-      li {
+      ul {
         margin-left: 4rem;
         list-style-type: square;
         color: $color-primary-dark;
@@ -54,6 +54,9 @@
       }
       @media screen and (max-width: $bp-med) {
         font-size: 0.68rem;
+      }
+      li {
+        padding-left: 0.5rem;
       }
 
       @media screen and (max-width: $bp-small) {

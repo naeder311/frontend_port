@@ -117,6 +117,12 @@ a {
       padding: 0rem;
       margin: 0; } }
 
+.btn__left {
+  font-size: 1rem; }
+
+.modal__button {
+  margin-top: 3.5rem; }
+
 .project {
   height: 100%;
   perspective: 150rem; }
@@ -177,32 +183,43 @@ a {
       transform: rotateY(180deg);
       height: 100%;
       display: grid;
-      grid-template-rows: 3rem 1fr 30%;
+      grid-template-rows: 15% 65% 20%;
       background-image: radial-gradient(white, #999); }
       @media screen and (max-width: 38.5em) {
         .project__side__back {
           display: none; } }
       .project__side__back__title {
         margin-top: 1rem;
+        font-size: 3rem;
         text-align: center; }
+        @media screen and (max-width: 1196px) {
+          .project__side__back__title {
+            font-size: 2rem; } }
       .project__side__back__desc {
-        font-size: 0.75rem;
-        padding: 1rem;
-        padding-top: 1rem;
+        font-size: 1rem;
         text-align: center;
         padding-bottom: 1rem; }
+        @media screen and (max-width: 1196px) {
+          .project__side__back__desc {
+            font-size: 0.75rem; } }
       .project__side__back__btn {
         padding-top: 0.5rem;
         border-radius: 1rem;
         margin-left: 1rem;
         margin-right: 1rem;
-        width: 80%;
+        width: 30%;
+        height: 1rem;
         box-shadow: 0.3rem 0.3rem 0.5rem 0.25rem #333;
         justify-self: center;
         margin-bottom: 0.75rem;
         padding-bottom: 0.75rem; }
+        @media screen and (max-width: 1099px) {
+          .project__side__back__btn {
+            height: 0.75rem;
+            font-size: 1rem;
+            margin-bottom: 2rem; } }
         .project__side__back__btn-text {
-          font-size: 1.25rem;
+          font-size: 1rem;
           text-transform: uppercase;
           text-decoration: none;
           color: #ccc; }
@@ -334,8 +351,7 @@ a {
   position: relative; }
   @media screen and (max-width: 56em) {
     .modal__article {
-      gap: 0rem;
-      grid-template-rows: none; } }
+      gap: 0rem; } }
   .modal__article__x {
     position: absolute;
     right: 3rem;
@@ -347,10 +363,8 @@ a {
     display: grid;
     grid-template-columns: 60% 40%;
     gap: 1rem;
+    height: 100%;
     overflow: hidden; }
-    @media screen and (max-width: 73em) {
-      .modal__article__main {
-        display: block; } }
     .modal__article__main__left {
       grid-column: 1/2;
       gap: 1rem; }
@@ -358,19 +372,15 @@ a {
         object-fit: cover;
         width: 100%;
         max-height: 100%; }
-        @media screen and (max-width: 73em) {
-          .modal__article__main__left--img {
-            height: 50%;
-            width: 50%; } }
-        @media screen and (max-width: 56em) {
-          .modal__article__main__left--img {
-            height: 60%;
-            width: 60%; } }
     .modal__article__main__right {
       grid-column: 2/3;
       color: black; }
       .modal__article__main__right--desc {
-        margin-top: 3rem; }
+        margin-top: 3rem;
+        font-size: 1.3rem; }
+        @media screen and (max-width: 831px) {
+          .modal__article__main__right--desc {
+            font-size: 1rem; } }
   .modal__article__slide {
     grid-row: 2/3;
     display: grid;
@@ -618,6 +628,10 @@ a {
     width: 100%;
     object-fit: cover; }
 
+.header__ul {
+  padding-left: 2rem;
+  font-size: 1.3rem; }
+
 .projects {
   padding-bottom: 2rem;
   position: relative;
@@ -698,6 +712,7 @@ a {
     grid-row: 2/3;
     grid-column: 2/3;
     padding: 2rem;
+    padding-left: 3rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr); }
     @media screen and (max-width: 31.25em) {
@@ -772,6 +787,21 @@ a {
     .contact__info {
       font-size: 1rem; } }
 
+.name__input {
+  padding-left: 0.5rem;
+  margin-left: 1rem;
+  font-family: inherit; }
+
+.email__input {
+  padding-left: 0.5rem;
+  margin-left: 1rem;
+  font-family: inherit; }
+
+.message__input {
+  padding-left: 0.5rem;
+  margin-left: 1rem;
+  font-family: inherit; }
+
 .about__container {
   display: grid;
   grid-template-columns: 1fr 20rem;
@@ -804,7 +834,7 @@ a {
     padding-left: 2rem;
     padding-right: 2rem;
     margin-top: 2rem; }
-    .about__info__body li {
+    .about__info__body ul {
       margin-left: 4rem;
       list-style-type: square;
       color: #073e5a; }
@@ -814,6 +844,8 @@ a {
     @media screen and (max-width: 56em) {
       .about__info__body {
         font-size: 0.68rem; } }
+    .about__info__body li {
+      padding-left: 0.5rem; }
     @media screen and (max-width: 38.5em) {
       .about__info__body {
         font-size: 0.5rem;

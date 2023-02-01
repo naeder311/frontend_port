@@ -82,7 +82,7 @@ const ProjectModal = () => {
               <button className="btn btn__left" onClick={closeModal}>
                 back
               </button>
-              <button className="btn">
+              <button className="btn btn__left">
                 <a href={link} target="_blank " rel="noopener noreferrer">
                   go to {title}
                 </a>

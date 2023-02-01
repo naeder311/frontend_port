@@ -219,6 +219,7 @@
       &--tech {
         font-weight: 800;
         font-size: 1.3rem;
+
         @media screen and (max-width: $bp-large) {
           font-size: 1rem;
         }
@@ -250,4 +251,8 @@
     width: 100%;
     object-fit: cover;
   }
+}
+.header__ul {
+  padding-left: 2rem;
+  font-size: 1.3rem;
 }

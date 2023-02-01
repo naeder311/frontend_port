@@ -68,38 +68,49 @@
       transform: rotateY(180deg);
       height: 100%;
       display: grid;
-      grid-template-rows: 3rem 1fr 30%;
+      grid-template-rows: 15% 65% 20%;
       background-image: radial-gradient(white, $color-grey-dark-3);
       @media screen and (max-width: $bp-small) {
         display: none;
       }
       &__title {
         margin-top: 1rem;
+        font-size: 3rem;
         text-align: center;
+        @media screen and (max-width: 1196px) {
+          font-size: 2rem;
+        }
       }
 
       &__desc {
-        font-size: 0.75rem;
-        padding: 1rem;
-        padding-top: 1rem;
+        font-size: 1rem;
+
         text-align: center;
         padding-bottom: 1rem;
+        @media screen and (max-width: 1196px) {
+          font-size: 0.75rem;
+        }
       }
       &__btn {
         padding-top: 0.5rem;
         border-radius: 1rem;
         margin-left: 1rem;
         margin-right: 1rem;
-        width: 80%;
+        width: 30%;
+        height: 1rem;
         box-shadow: 0.3rem 0.3rem 0.5rem 0.25rem $color-grey-dark-1;
         justify-self: center;
 
         margin-bottom: 0.75rem;
         padding-bottom: 0.75rem;
+        @media screen and (max-width: 1099px) {
+          height: 0.75rem;
+          font-size: 1rem;
+          margin-bottom: 2rem;
+        }
 
         &-text {
-          font-size: 1.25rem;
-
+          font-size: 1rem;
           text-transform: uppercase;
           text-decoration: none;
           color: $color-grey-light-4;

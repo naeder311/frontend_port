@@ -73,10 +73,10 @@ const Customers = () => {
               </article>
             );
           })}
-          <button className="prev" onClick={() => setIndex(index + 1)}>
+          <button className="prev" onClick={() => setIndex(index - 1)}>
             <BiLeftArrow />
           </button>
-          <button className="next" onClick={() => setIndex(index - 1)}>
+          <button className="next" onClick={() => setIndex(index + 1)}>
             <BiRightArrow />
           </button>
         </div>

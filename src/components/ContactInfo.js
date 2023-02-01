@@ -15,12 +15,6 @@ const ContactInfo = () => {
         cellphone: <br />
         <span>631 848 9528</span>
       </div>
-      <div>
-        address: <br />
-        <span>
-          1092 Namdac ave <br /> bay shore ny, 11706
-        </span>
-      </div>
     </div>
   );
 };

@@ -12,17 +12,17 @@ const About = () => {
           <span>
             <br />
             <ul>
-              <li>Having a mentor that is a SVP of Engineering</li>
+              <li>Udemy -React Tutorial and Projects course by John Smilga</li>
+              <li>Udemy -Advanced CSS and SASS by Jonas Schmedtmann</li>
               <li>
-                Enrolling in Udemy classes: React Tutorial and Projects course
-                by John Smilga, React the Complete Guide by Maximilian
-                Shwarzmuller, Advanced CSS and SASS by Jonas Schmedtmann, Django
-                with React by Dennis Ivy and Brad Traversy
+                Udemy -Testing React with Jest and React Testing Library (RTL)
+                by Bonnie Schulkin
               </li>
               <li>Harvardx CS50W Web Programming with Python and Javascript</li>
               <li>Completing Javascript & JQuery by Jon Duckett</li>
               <li>Completing Python Crash Course by Eric Matthes</li>
               <li>Reading technology docs</li>
+              <li>Having a mentor that is a SVP of Engineering</li>
               <li>
                 Following several developers on Medium such as Addy Osmani,
                 Lydia Hallie, Paul Irish
