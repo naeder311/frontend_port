@@ -15,6 +15,10 @@ const About = () => {
               <li>Udemy -React Tutorial and Projects course by John Smilga</li>
               <li>Udemy -Advanced CSS and SASS by Jonas Schmedtmann</li>
               <li>
+                Udemy -Mastering Regular Expressions in JavaScript by Steven
+                Hancock
+              </li>
+              <li>
                 Udemy -Testing React with Jest and React Testing Library (RTL)
                 by Bonnie Schulkin
               </li>
