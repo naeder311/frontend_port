@@ -34,10 +34,6 @@ const About = () => {
               <li>
                 Following youtube's developedbyed - super duper entertaining
               </li>
-              <li>
-                Currently working on unit testing with Jest and React Testing
-                Library by Bonnie Schulkin
-              </li>
             </ul>
           </span>
           <br />
