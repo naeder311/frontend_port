@@ -12,6 +12,9 @@ const About = () => {
           <span>
             <br />
             <ul>
+              <li>
+                Udemy -The Compolete JavaScript Course by Jonas Schmedtmann{' '}
+              </li>
               <li>Udemy -React Tutorial and Projects course by John Smilga</li>
               <li>Udemy -Advanced CSS and SASS by Jonas Schmedtmann</li>
               <li>
