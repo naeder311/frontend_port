@@ -65,7 +65,7 @@ const Header = () => {
               <h3 className="header__leftside__grid__btn--text">Contact Me</h3>
             </Link>
             <a
-              href="https://drive.google.com/file/d/1O6GhBj23z6BUOyiVTECVfNuo16Gyi-Or/view?usp=sharing"
+              href="https://drive.google.com/file/d/1Qk-x7ApZSxY5R9td_7HsOF0xhc6MP5K1/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
               className="btn header__leftside__grid__btn"
